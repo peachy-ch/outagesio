@@ -1,3 +1,5 @@
+# This will require the starter_linux_ocp.sh from https://www.outagesio.com/. 
+# If you want to pass the USERNAME and PASSWORD to the container you'll have to remove the section where it reads them from a file. Also don't backgorund otm_linux
 FROM debian:stable-slim
 WORKDIR /otm/
 
